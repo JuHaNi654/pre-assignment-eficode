@@ -19,7 +19,7 @@ git clone https://github.com/JuHaNi654/pre-assignment-eficode.git
 ```
 Go to project directory
 ```bash
-../transportation-app
+cd pre-assignment-eficode
 ```
 Install needed dependencies
 ```bash
