@@ -38,7 +38,7 @@ First build image to the docker
 ```bash
 docker build -t transportation-app .
 ```
-("make sure that u are in the project folder or gave path to the project folder when build the image")
+("make sure that u are in the project folder or give path to the project folder when build the image")
 ("it might take some time on building image")
 
 when it is done, then it should run on docker by giving this 
@@ -46,5 +46,5 @@ command:
 ```bash
 docker run -it -d -p 8080:80 transportation-app
 ```
-("make sure that u are in the project folder or gave path to the project folder when build the image")
+
 
