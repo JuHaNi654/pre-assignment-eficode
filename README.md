@@ -45,5 +45,8 @@ command:
 ```bash
 docker run -it -d -p 8080:80 transportation-app
 ```
-
+and go to browser check if it works
+```bash
+localhost:8080
+```
 
