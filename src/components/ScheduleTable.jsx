@@ -27,7 +27,8 @@ function ScheduleTable(props) {
         props.data.states.startingCoordinates,
         props.data.states.destinationCoordinates
     )
-
+    // Fetching data query from api
+    // pollInterval 180000: set that function will recall updated data from databae every 3 minutes
     const { loading, error, data } = useQuery(TRAVEL_QUERY, {
         pollInterval: 180000,
     });
