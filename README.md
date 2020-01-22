@@ -1,5 +1,5 @@
 # Eficode Job assigment
-Project is part of eficode assignment https://github.com/eficode/assignment-timetables
+Project is part of eficode assignment [linke](https://github.com/eficode/assignment-timetables)
 
 ## Project idea
 React project idea is to get bus time schedules to the Eficode office or back to home
