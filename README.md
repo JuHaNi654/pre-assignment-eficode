@@ -1,5 +1,5 @@
 # Eficode Job assigment
-Project is part of eficode assignment [linke](https://github.com/eficode/assignment-timetables)
+Project is part of eficode assignment https://github.com/eficode/assignment-timetables
 
 ## Project idea
 React project idea is to get bus time schedules to the Eficode office or back to home
@@ -32,4 +32,19 @@ npm start
 ```
 
 ### Deploy to Docker
-More documentation coming soon
+To deploy transportation-app production mode to the docker
+
+First build image to the docker
+```bash
+docker build -t transportation-app .
+```
+("make sure that u are in the project folder or gave path to the project folder when build the image")
+("it might take some time on building image")
+
+when it is done, then it should run on docker by giving this 
+command:
+```bash
+docker run -it -d -p 8080:80 transportation-app
+```
+("make sure that u are in the project folder or gave path to the project folder when build the image")
+
