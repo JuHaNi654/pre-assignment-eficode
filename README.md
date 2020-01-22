@@ -15,7 +15,7 @@ Live version: https://transportation-app.netlify.com/
 ### Installation guide
 Clone project
 ```bash
-git clone --
+git clone https://github.com/JuHaNi654/pre-assignment-eficode.git
 ```
 Go to project directory
 ```bash
