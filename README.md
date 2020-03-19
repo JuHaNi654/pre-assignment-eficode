@@ -2,7 +2,6 @@
 Project is part of eficode assignment https://github.com/eficode/assignment-timetables
 
 
-Live version: https://transportation-app.netlify.com/
 
 ### Packages used in this project
 - [Apollographql](https://www.apollographql.com/docs/)
